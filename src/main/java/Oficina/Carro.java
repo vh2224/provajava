@@ -5,7 +5,7 @@ public class Carro {
     private Integer idCarro;
     private String tipoCarro;
     private String numPlaca;
-    private Cliente idCliente;
+    private Cliente cliente;
 
     public Integer getId() {
         return idCarro;
@@ -31,11 +31,12 @@ public class Carro {
         this.numPlaca = numPlaca;
     }
 
-    public Cliente getIdCliente() {
-        return idCliente;
+    public Cliente getCliente() {
+        return cliente;
     }
 
-    public void setIdCliente(Cliente idCliente) {
-        this.idCliente = idCliente;
+    public void setCliente(Cliente cliente) {
+        this.cliente = cliente;
     }
+
 }

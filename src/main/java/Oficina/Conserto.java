@@ -2,40 +2,49 @@ package Oficina;
 
 public class Conserto {
 
-    private Mecanico idMecanico;
-    private Carro idCarro;
-    private Oficina idOficina;
-    private Detalhes idDetalhes;
+    private Mecanico mecanico;
+    private Carro carro;
+    private Oficina oficina;
+    private Detalhes detalhes;
+    private String data;
 
-    public Mecanico getIdMecanico() {
-        return idMecanico;
+    public Mecanico getMecanico() {
+        return mecanico;
     }
 
-    public void setIdMecanico(Mecanico idMecanico) {
-        this.idMecanico = idMecanico;
+    public void setMecanico(Mecanico mecanico) {
+        this.mecanico = mecanico;
     }
 
-    public Carro getIdCarro() {
-        return idCarro;
+    public Carro getCarro() {
+        return this.carro;
     }
 
-    public void setIdCarro(Carro idCarro) {
-        this.idCarro = idCarro;
+    public void setCarro(Carro carro) {
+        this.carro = carro;
     }
 
-    public Oficina getIdOficina() {
-        return idOficina;
+    public Oficina getOficina() {
+        return oficina;
     }
 
-    public void setIdOficina(Oficina idOficina) {
-        this.idOficina = idOficina;
+    public void setOficina(Oficina oficina) {
+        this.oficina = oficina;
     }
 
-    public Detalhes getIdDetalhes() {
-        return idDetalhes;
+    public Detalhes getDetalhes() {
+        return detalhes;
     }
 
-    public void setIdDetalhes(Detalhes idDetalhes) {
-        this.idDetalhes = idDetalhes;
+    public void setDetalhes(Detalhes detalhes) {
+        this.detalhes = detalhes;
+    }
+
+    public String getData() {
+        return data;
+    }
+
+    public void setData(String data) {
+        this.data = data;
     }
 }

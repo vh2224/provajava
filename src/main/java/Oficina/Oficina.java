@@ -3,6 +3,7 @@ package Oficina;
 public class Oficina {
 
     private Integer idOficina;
+    private String nome;
     private String logradouro;
 
     public Integer getIdOficina() {
@@ -19,5 +20,13 @@ public class Oficina {
 
     public void setLogradouro(String logradouro) {
         this.logradouro = logradouro;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
     }
 }

@@ -5,15 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3931d0ea-e798-4aba-8c4c-a38cf434b2da" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Oficina/Carro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Oficina/Cliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Oficina/Conserto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Oficina/Detalhes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Oficina/Mecanico.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Oficina/Oficina.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Oficina/CarroTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Oficina/ClienteTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Oficina/ConsertoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Oficina/DetalhesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Oficina/MecanicoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Oficina/OficinaTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Oficina/Carro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Oficina/Carro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Oficina/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Oficina/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Oficina/Conserto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Oficina/Conserto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Oficina/Detalhes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Oficina/Detalhes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Oficina/Oficina.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Oficina/Oficina.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,14 +28,25 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="ProjectId" id="1yGr4lDXwVIWDaGKGvWebABVr6z" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -41,6 +56,8 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -54,6 +71,102 @@
     <key name="CreateClassDialog.RecentsKey">
       <recent name="Oficina" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="Oficina" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.ConsertoTest.deveRetornarCarro">
+    <configuration name="CarroTest.deveRetornarTipoDoCarro" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PROVAP1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Oficina.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Oficina" />
+      <option name="MAIN_CLASS_NAME" value="Oficina.CarroTest" />
+      <option name="METHOD_NAME" value="deveRetornarTipoDoCarro" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsertoTest.deveRetornarCarro" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PROVAP1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Oficina.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Oficina" />
+      <option name="MAIN_CLASS_NAME" value="Oficina.ConsertoTest" />
+      <option name="METHOD_NAME" value="deveRetornarCarro" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DetalhesTest.deveRetornarStatus" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PROVAP1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Oficina.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Oficina" />
+      <option name="MAIN_CLASS_NAME" value="Oficina.DetalhesTest" />
+      <option name="METHOD_NAME" value="deveRetornarStatus" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MecanicoTest.deveRetornarNomeMecanico" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PROVAP1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Oficina.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Oficina" />
+      <option name="MAIN_CLASS_NAME" value="Oficina.MecanicoTest" />
+      <option name="METHOD_NAME" value="deveRetornarNomeMecanico" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OficinaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PROVAP1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Oficina.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Oficina" />
+      <option name="MAIN_CLASS_NAME" value="Oficina.OficinaTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ConsertoTest.deveRetornarCarro" />
+        <item itemvalue="JUnit.DetalhesTest.deveRetornarStatus" />
+        <item itemvalue="JUnit.OficinaTest" />
+        <item itemvalue="JUnit.MecanicoTest.deveRetornarNomeMecanico" />
+        <item itemvalue="JUnit.CarroTest.deveRetornarTipoDoCarro" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -63,7 +176,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1631888579010</updated>
-      <workItem from="1631888580937" duration="2941000" />
+      <workItem from="1631888580937" duration="11911000" />
     </task>
     <servers />
   </component>

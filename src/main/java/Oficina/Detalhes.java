@@ -29,4 +29,5 @@ public class Detalhes {
     public void setDescricao(String descricao) {
         this.descricao = descricao;
     }
+
 }
