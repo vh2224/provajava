@@ -19,7 +19,7 @@ public class Oficina {
     }
 
     public void setLogradouro(String logradouro) {
-        if (this.logradouro == null){
+        if (logradouro == null){
             throw new NullPointerException("Logradouro é obrigatório");
         }
         this.logradouro = logradouro;
@@ -30,7 +30,7 @@ public class Oficina {
     }
 
     public void setNome(String nome) {
-        if (this.nome == null){
+        if (nome == null){
             throw new NullPointerException("Nome oficina é obrigatório");
         }
         this.nome = nome;
