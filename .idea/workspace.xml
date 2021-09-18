@@ -5,19 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3931d0ea-e798-4aba-8c4c-a38cf434b2da" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Oficina/CarroTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Oficina/ClienteTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Oficina/ConsertoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Oficina/DetalhesTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Oficina/MecanicoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Oficina/OficinaTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Oficina/Carro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Oficina/Carro.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Oficina/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Oficina/Cliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Oficina/Conserto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Oficina/Conserto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Oficina/Detalhes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Oficina/Detalhes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Oficina/Oficina.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Oficina/Oficina.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Oficina/ClienteTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Oficina/ClienteTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Oficina/DetalhesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Oficina/DetalhesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Oficina/OficinaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Oficina/OficinaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Oficina/Cliente.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Oficina/Cliente.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Oficina/Detalhes.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Oficina/Detalhes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Oficina/Oficina.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Oficina/Oficina.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Oficina/ClienteTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Oficina/ClienteTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Oficina/DetalhesTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Oficina/DetalhesTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Oficina/OficinaTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Oficina/OficinaTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,8 +78,8 @@
       <recent name="Oficina" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ConsertoTest.deveRetornarCarro">
-    <configuration name="CarroTest.deveRetornarTipoDoCarro" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.MecanicoTest.deveRetornarExcecaoNomeMecanicoNulo">
+    <configuration name="ClienteTest.deveRetornarExcecaoNomeNulo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PROVAP1" />
       <extension name="coverage">
         <pattern>
@@ -88,14 +88,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Oficina" />
-      <option name="MAIN_CLASS_NAME" value="Oficina.CarroTest" />
-      <option name="METHOD_NAME" value="deveRetornarTipoDoCarro" />
+      <option name="MAIN_CLASS_NAME" value="Oficina.ClienteTest" />
+      <option name="METHOD_NAME" value="deveRetornarExcecaoNomeNulo" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConsertoTest.deveRetornarCarro" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ClienteTest.deveRetornarNome" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PROVAP1" />
       <extension name="coverage">
         <pattern>
@@ -104,30 +104,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Oficina" />
-      <option name="MAIN_CLASS_NAME" value="Oficina.ConsertoTest" />
-      <option name="METHOD_NAME" value="deveRetornarCarro" />
+      <option name="MAIN_CLASS_NAME" value="Oficina.ClienteTest" />
+      <option name="METHOD_NAME" value="deveRetornarNome" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DetalhesTest.deveRetornarStatus" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="PROVAP1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Oficina.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Oficina" />
-      <option name="MAIN_CLASS_NAME" value="Oficina.DetalhesTest" />
-      <option name="METHOD_NAME" value="deveRetornarStatus" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MecanicoTest.deveRetornarNomeMecanico" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MecanicoTest.deveRetornarExcecaoNomeMecanicoNulo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PROVAP1" />
       <extension name="coverage">
         <pattern>
@@ -137,13 +121,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="Oficina" />
       <option name="MAIN_CLASS_NAME" value="Oficina.MecanicoTest" />
-      <option name="METHOD_NAME" value="deveRetornarNomeMecanico" />
+      <option name="METHOD_NAME" value="deveRetornarExcecaoNomeMecanicoNulo" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OficinaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="OficinaTest.deveRetornarExcecaoLocalidadeOficinaNula" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PROVAP1" />
       <extension name="coverage">
         <pattern>
@@ -153,18 +137,35 @@
       </extension>
       <option name="PACKAGE_NAME" value="Oficina" />
       <option name="MAIN_CLASS_NAME" value="Oficina.OficinaTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="METHOD_NAME" value="deveRetornarExcecaoLocalidadeOficinaNula" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OficinaTest.deveRetornarExcecaoNomeNulo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PROVAP1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Oficina.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Oficina" />
+      <option name="MAIN_CLASS_NAME" value="Oficina.OficinaTest" />
+      <option name="METHOD_NAME" value="deveRetornarExcecaoNomeNulo" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ConsertoTest.deveRetornarCarro" />
-        <item itemvalue="JUnit.DetalhesTest.deveRetornarStatus" />
-        <item itemvalue="JUnit.OficinaTest" />
-        <item itemvalue="JUnit.MecanicoTest.deveRetornarNomeMecanico" />
-        <item itemvalue="JUnit.CarroTest.deveRetornarTipoDoCarro" />
+        <item itemvalue="JUnit.MecanicoTest.deveRetornarExcecaoNomeMecanicoNulo" />
+        <item itemvalue="JUnit.ClienteTest.deveRetornarExcecaoNomeNulo" />
+        <item itemvalue="JUnit.ClienteTest.deveRetornarNome" />
+        <item itemvalue="JUnit.OficinaTest.deveRetornarExcecaoLocalidadeOficinaNula" />
+        <item itemvalue="JUnit.OficinaTest.deveRetornarExcecaoNomeNulo" />
       </list>
     </recent_temporary>
   </component>
@@ -176,7 +177,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1631888579010</updated>
-      <workItem from="1631888580937" duration="11911000" />
+      <workItem from="1631888580937" duration="17452000" />
     </task>
     <servers />
   </component>

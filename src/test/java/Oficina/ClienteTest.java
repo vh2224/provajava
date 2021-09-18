@@ -1,18 +1,28 @@
 package Oficina;
 
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.TestTemplate;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 class ClienteTest {
 
     @Test
-    void deveRetornarNomeCompleto() {
+    void deveRetornarNome() {
         Cliente cliente = new Cliente();
         cliente.setNome("Vinicius");
-        cliente.setSobrenome("Almeida");
-
-        assertEquals("Vinicius Almeida", cliente.getFullName());
+        assertEquals("Vinicius", cliente.getNome());
     }
 
+    @Test
+    void deveRetornarExcecaoNomeNulo(){
+        try {
+            Cliente cliente = new Cliente();
+            cliente.setNome(null);
+            fail();
+        }
+        catch (NullPointerException e) {
+            assertEquals("Nome cliente é obrigatório", e.getMessage());
+        }
+    }
 }

@@ -21,6 +21,9 @@ public class Mecanico {
     }
 
     public void setNome(String nome) {
+        if(nome == null){
+            throw new NullPointerException("Nome do mecanico é obrigatório");
+        }
         this.nome = nome;
     }
 

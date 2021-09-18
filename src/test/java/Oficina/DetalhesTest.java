@@ -8,8 +8,21 @@ class DetalhesTest {
 
     @Test
     void deveRetornarStatus(){
-        Detalhes detalhe = new Detalhes();
-        detalhe.setStatus(1);
-        assertEquals(1, detalhe.getStatus());
+        try{
+            Detalhes detalhe = new Detalhes(1);
+            detalhe.setStatus(null);
+            fail();
+        }
+        catch (NullPointerException e){
+        assertEquals("status é obrigatório", e.getMessage());
+        }
     }
+
+    @Test
+    void deveRetornarCarroSemConserto(){
+        Detalhes detalhe = new Detalhes(2);
+        detalhe.getTipoDescricao();
+        assertEquals("Carro não precisou de conserto", detalhe.getTipoDescricao());
+    }
+
 }

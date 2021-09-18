@@ -12,4 +12,16 @@ class MecanicoTest {
         mecanico.setNome("Manoel");
         assertEquals("Manoel", mecanico.getNome());
     }
+
+    @Test
+    void deveRetornarExcecaoNomeMecanicoNulo(){
+        try {
+            Mecanico mecanico = new Mecanico();
+            mecanico.setNome(null);
+            fail();
+        }
+        catch (NullPointerException e) {
+            assertEquals("Nome do mecanico é obrigatório", e.getMessage());
+        }
+    }
 }

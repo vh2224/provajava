@@ -4,7 +4,6 @@ public class Cliente {
 
     private Integer idCliente;
     private String nome;
-    private String sobrenome;
     private String endereco;
     private String cpf;
 
@@ -22,6 +21,9 @@ public class Cliente {
     }
 
     public void setNome(String nome) {
+        if(nome == null){
+            throw new NullPointerException("Nome cliente é obrigatório");
+        }
         this.nome = nome;
     }
 
@@ -39,18 +41,6 @@ public class Cliente {
 
     public void setCpf(String cpf) {
         this.cpf = cpf;
-    }
-
-    public String getSobrenome() {
-        return sobrenome;
-    }
-
-    public void setSobrenome(String sobrenome) {
-        this.sobrenome = sobrenome;
-    }
-
-    public String getFullName() {
-        return this.nome + " " + this.sobrenome;
     }
 
 }
